@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td
+        {
+            border:3px solid black;
+            border-collapse: collapse;
+            height:150px;
+        }
+        #red:hover
+        {
+            background-color:red;
+            transform: rotate(360deg);
+        }
+        #yellow:hover
+        {
+            background-color:yellow;
+            transform: rotate(360deg);
+        }
+        #green:hover
+        {
+            background-color:green;
+            transform: rotate(360deg);
+        }
+        #black:hover
+        {
+            background-color:black;
+            transform: rotate(360deg);
+        }
+        td{
+             transition-duration:10s;
+             transition-delay:2s;
+        }
+
+    </style>
+</head>
+<body>
+   <table  width="100%">
+        <tr>
+            <th style="color: aqua;">COLOURS1</th>
+            <th style="color:green;">COLOURS2</th>
+            <th style="color:blueviolet;">COLOURS3</th>
+            <th style="color:violet;">COLOURS4</th>
+        </tr>
+        
+        <tr>
+            <td id="red">RED</td>
+            <td id="yellow">YELLOW</td>
+            <td id="green">GREEN</td>
+            <td id="black">BLACK</td> 
+        </tr>
+        <tr>
+            <td id="black">BLACK</td>
+            <td id="green">GREEN</td>
+            <td id="yellow">YELLOW</td>
+            <td id="red">RED</td>
+        </tr>
+        <tr>
+            <td id="red">RED</td>
+            <td id="yellow">YELLOW</td>
+            <td id="green">GREEN</td>
+            <td id="black">BLACK</td>
+        </tr>
+        <tr>
+          <td id="black">BLACK</td>
+          <td id="green">GREEN</td>
+          <td id="yellow">YELLOW</td>
+          <td id="red">RED</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
+        
